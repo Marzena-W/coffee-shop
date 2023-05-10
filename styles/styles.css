@@ -167,7 +167,7 @@ h1 {
 .title {
     font-size: 1.4rem;
     text-transform: uppercase;
-    background-color: #EDBE83;
+    background-color: white;
     color: black;
     padding: 5px 20px;
     border-radius: 4px;
@@ -175,7 +175,7 @@ h1 {
 
 .title:hover {
     color: black;
-    background-color: white;
+    background-color: antiquewhite;
     text-decoration: none;
 }
 
@@ -255,15 +255,17 @@ td {
 }
 
 .place:hover {
-    color: white;
-    background-color: black;
+    color: black;
+    background-color: antiquewhite;
 }
 
-.clicked-label {
+.clicked-label, .clicked-label:hover {
     font-weight: 600;
     background-color: black;
     color: white;
 }
+
+
 
 .location-address {
     display: flex;
@@ -291,7 +293,6 @@ td {
     font-size: 1.8rem;
     color: white;
     border-radius: 4px;
-
 }
 
 .overlay {
@@ -307,6 +308,7 @@ td {
     font-size: 5rem;
     text-transform: uppercase;
     margin-bottom: 20px;
+    font-weight: 100;
 }
 
 .input {
@@ -319,13 +321,89 @@ td {
 }
 
 .subscribe {
-    font-size: 1.9rem;
+    font-size: 1.5rem;
     text-transform: uppercase;
     color: white;
     border: 1px solid black;
     border-radius: 4px;
-    padding: 5px 16px;
+    padding: 5px 35px;
     background-color: black;
-    width: 120px;
+    width: 40%;
     margin: 10px auto;
+}
+
+.subscribe:hover {
+    background-color: antiquewhite;
+    color: black;
+}
+
+
+/* reviews */
+.review-sec {
+    margin-bottom: 120px;
+}
+
+.review-sec>p {
+    text-align: center;
+    font-size: 3rem;
+    width: 60%;
+    margin: 0 auto 70px;
+    line-height: 3.3rem;
+}
+.reviews {
+    display: flex;
+    gap: 2rem;
+    text-align: center;
+}
+
+.review-card {
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 4pxg;
+}
+
+.review-card>img {
+    width: 80px;
+    border-radius: 50%;
+    margin-top: -40px;
+    margin-bottom: 20px;
+}
+
+.review-card>p {
+    width: 60%;
+    font-size: 1.5rem;
+}
+
+
+/* insta */
+.insta-sec {
+    margin-bottom: 120px;
+}
+
+.insta-cards {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+.insta-cards>img {
+    /* border: 1px solid black; */
+    border-radius: 4px;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 1.4rem;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
