@@ -1,5 +1,5 @@
 html {
-    font-size: 62.5%; 
+    font-size: 62.5%;
 }
 
 * {
@@ -13,7 +13,6 @@ html {
 }
 
 .wrapper {
-    background-color: rgb(218, 251, 251);
     max-width: 1200px;
     margin: 0 auto;
 }
@@ -30,21 +29,90 @@ header {
 }
 
 nav {
-    margin: 3em 0;
+    margin: 2em 0;
 }
+
 nav>ul {
     display: flex;
     gap: 2em;
     font-size: 1.6rem;
 }
 
-nav>ul>li>a, nav>ul>a {
+nav>ul>li>a,
+nav>ul>a {
     color: black;
 }
 
-nav>ul>li>a:hover, nav>ul>a:hover {
+nav>ul>li>a:hover,
+nav>ul>a:hover {
     text-decoration: none;
     color: rgb(81, 80, 80);
 }
 
+/* banner section */
+.banner {
+    display: flex;
+    gap: 2em;
+}
 
+.left-col {
+    width: 50%;
+}
+
+.left-col>img {
+    width: 100%;
+}
+
+.right-col {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.banner-text {
+    margin: 100px 30px auto 30px;
+}
+
+h1 {
+    font-size: 6.4rem;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.banner-text>p {
+    font-size: 1.8rem;
+}
+
+.banner-imgs {
+    flex-grow: 1;
+    display: grid;
+    gap: 2em;
+    grid-template-columns: repeat(2, auto);
+    height: 50%;
+    align-items: flex-end;
+}
+
+.banner-imgs>img {
+    width: 100%;
+}
+
+
+.para {
+    padding: 70px 0;
+    background-color: rgb(218, 251, 251);
+}
+.para>p {
+    font-size: 4.2rem;
+    font-weight: 600;
+    line-height: 4.5rem;
+    margin-bottom: 40px;
+}
+
+.primary-cta {
+    font-size: 1.9rem;
+    text-transform: uppercase;
+    color: black;
+    border: 1px solid black;
+    border-radius: 4px;
+    padding: 5px 20px;
+}
