@@ -108,6 +108,7 @@ h1 {
 .para {
     padding: 100px 0;
 }
+
 .para>p {
     font-size: 4.2rem;
     font-weight: 100;
@@ -135,7 +136,7 @@ h1 {
     font-size: 1.9rem;
     text-transform: uppercase;
     margin-bottom: 16px;
-    border-bottom: 1px solid ;
+    border-bottom: 1px solid;
 }
 
 .menu-cards {
@@ -147,7 +148,6 @@ h1 {
 .cards {
     position: relative;
     width: 100%;
-    height: 500px;
 }
 
 .cards img {
@@ -155,6 +155,7 @@ h1 {
     height: 100%;
     border-radius: 2px;
 }
+
 .card-details {
     position: absolute;
     bottom: 20px;
@@ -183,7 +184,7 @@ h1 {
     width: 60%;
     text-align: center;
     font-size: 1.8rem;
-    margin: 60px auto;
+    margin: 50px auto 120px;
     font-weight: 300;
 }
 
@@ -198,7 +199,7 @@ td {
     border: none;
 }
 
-.coffee-size > th {
+.coffee-size>th {
     font-weight: 600;
     font-size: 1.4rem;
 }
@@ -210,4 +211,66 @@ td {
 
 .coffee-names {
     font-weight: 400;
+}
+
+
+/* location address */
+.places {
+    display: flex;
+    gap: 2em;
+}
+
+.places>p {
+    font-size: 4.2rem;
+    font-weight: 100;
+    line-height: 4.5rem;
+    margin-bottom: 40px;
+    width: 50%;
+}
+
+.address {
+    width: 50%;
+}
+
+.locations {
+    border: 1px solid black;
+    border-radius: 4px;
+}
+
+.locations-name {
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.6rem;
+    text-align: center;
+    margin: 30px;
+}
+
+.place {
+    border: 1px solid black;
+    border-radius: 4px;
+    padding: 4px 26px;
+}
+
+.place:hover {
+    color: white;
+    background-color: black;
+}
+
+.clicked-label {
+    font-weight: 600;
+    background-color: black;
+    color: white;
+}
+
+.location-address {
+    display: flex;
+    justify-content: space-between;
+    gap: 4rem;
+    margin: 30px;
+    font-size: 2.3rem;
+}
+
+.location-address>svg {
+    width: 67px;
+    margin: auto;
 }
