@@ -1,6 +1,6 @@
 ## Live Application
 
-Click [here]() to see the website.
+Click [here](https://marzena-w.github.io/coffee-shop/) to see the website.
 
 <br/>
 
