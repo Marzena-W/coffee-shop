@@ -41,12 +41,14 @@ nav>ul {
 nav>ul>li>a,
 nav>ul>a {
     color: black;
+    text-transform: uppercase;
 }
 
 nav>ul>li>a:hover,
 nav>ul>a:hover {
     text-decoration: none;
     color: rgb(81, 80, 80);
+    font-size: 1.4rem;
 }
 
 /* banner section */
@@ -61,6 +63,7 @@ nav>ul>a:hover {
 
 .left-col>img {
     width: 100%;
+    border-radius: 8px;
 }
 
 .right-col {
@@ -70,13 +73,17 @@ nav>ul>a:hover {
 }
 
 .banner-text {
-    margin: 100px 30px auto 30px;
+    /* margin: 130px 30px auto 30px; */
+    height: 100%;
+    margin: auto 0;
 }
 
 h1 {
     font-size: 6.4rem;
     text-transform: uppercase;
     font-weight: bold;
+    line-height: 6rem;
+    margin-bottom: 20px;
 }
 
 .banner-text>p {
@@ -94,12 +101,12 @@ h1 {
 
 .banner-imgs>img {
     width: 100%;
+    border-radius: 8px;
 }
 
-
+/* para */
 .para {
-    padding: 70px 0;
-    background-color: rgb(218, 251, 251);
+    padding: 100px 0;
 }
 .para>p {
     font-size: 4.2rem;
@@ -115,4 +122,44 @@ h1 {
     border: 1px solid black;
     border-radius: 4px;
     padding: 5px 20px;
+}
+
+.primary-cta:hover {
+    text-decoration: none;
+    color: black;
+    background-color: antiquewhite;
+}
+
+/* menu */
+.label {
+    font-size: 1.9rem;
+    text-transform: uppercase;
+    margin-bottom: 16px;
+    border-bottom: 1px solid ;
+}
+
+.menu-cards {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.cards {
+    position: relative;
+}
+
+.card-details {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+}
+
+.title {
+    font-size: 1.4rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    background-color: #EDBE83;
+    color: black;
+    padding: 5px 20px;
+    border-radius: 4px;
 }
