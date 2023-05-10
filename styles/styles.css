@@ -181,24 +181,22 @@ h1 {
 
 /* Table */
 .table-wrapper {
-    border: 1px solid;
+    border: 1px solid black;
     border-radius: 12px;
     width: 60%;
     text-align: center;
     font-size: 1.8rem;
     margin: 50px auto 120px;
     font-weight: 300;
+    border-collapse: collapse;
+    overflow: hidden;
 }
 
 .table-header {
-    background-color: black;
+    background-color: rgb(0, 0, 0);
     color: white;
     text-transform: uppercase;
     text-align: left;
-}
-
-td {
-    border: none;
 }
 
 .coffee-size>th {
@@ -259,7 +257,8 @@ td {
     background-color: antiquewhite;
 }
 
-.clicked-label, .clicked-label:hover {
+.clicked-label,
+.clicked-label:hover {
     font-weight: 600;
     background-color: black;
     color: white;
@@ -350,6 +349,7 @@ td {
     margin: 0 auto 70px;
     line-height: 3.3rem;
 }
+
 .reviews {
     display: flex;
     gap: 2rem;
