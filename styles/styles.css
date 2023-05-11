@@ -92,6 +92,27 @@ h1 {
     font-size: 1.8rem;
 }
 
+.primary-cta {
+    font-size: 1.9rem;
+    text-transform: uppercase;
+    color: black;
+    border: 1px solid black;
+    border-radius: 4px;
+    padding: 5px 20px;
+}
+
+.primary-cta:hover {
+    text-decoration: none;
+    color: black;
+    background-color: antiquewhite;
+}
+
+.visit {
+ width: 30%;
+ text-align: center;
+ margin-top: 20px;
+}
+
 .banner-imgs {
     flex-grow: 1;
     display: grid;
@@ -116,21 +137,6 @@ h1 {
     font-weight: 100;
     line-height: 4.5rem;
     margin-bottom: 40px;
-}
-
-.primary-cta {
-    font-size: 1.9rem;
-    text-transform: uppercase;
-    color: black;
-    border: 1px solid black;
-    border-radius: 4px;
-    padding: 5px 20px;
-}
-
-.primary-cta:hover {
-    text-decoration: none;
-    color: black;
-    background-color: antiquewhite;
 }
 
 /* menu */
@@ -189,9 +195,9 @@ h1 {
     margin: 50px auto 120px;
     font-weight: 300;
     border-collapse: collapse;
-    overflow: hidden;
-}
+    overflow: auto;
 
+}
 .table-header {
     background-color: rgb(0, 0, 0);
     color: white;
